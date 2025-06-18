@@ -28,7 +28,7 @@ To achieve this objective, the project was broken down into the following sub-ob
 4) Develop a well-performing classification model.
 5) Create and deploy a containerized API endpoint on the cloud.
 
-I am aiming for a high-scoring model, using as many features as needed while removing those that may add noise or lead to overfitting. Alternatively, I could use the least number of features that still achieve good performance, which may align better with practical business implementations. I will balance the classes and use ROC-AUC as the primary evaluation metric.
+I am aiming for a high-scoring model, using as many features as needed while removing those that would lead to overfitting. Alternatively, I could use the least number of features that still achieve good performance, which may align better with practical business implementations. Reducing the number of inputs is important, as collecting and maintaining certain types of information can be costly.
 
 ## Insights Based on EDA
 
